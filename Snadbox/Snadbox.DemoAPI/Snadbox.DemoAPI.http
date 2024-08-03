@@ -1,0 +1,6 @@
+@Snadbox.DemoAPI_HostAddress = http://localhost:5013
+
+GET {{Snadbox.DemoAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

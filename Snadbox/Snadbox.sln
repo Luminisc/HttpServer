@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34407.89
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Snadbox.DemoAPI", "Snadbox.DemoAPI\Snadbox.DemoAPI.csproj", "{D300D2E0-0C92-4C48-9D83-FEE8B0AC029D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Snadbox.Core", "Snadbox.Core\Snadbox.Core.csproj", "{26A9DC79-AB69-4D20-B373-D8A9C2EEA006}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D300D2E0-0C92-4C48-9D83-FEE8B0AC029D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D300D2E0-0C92-4C48-9D83-FEE8B0AC029D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D300D2E0-0C92-4C48-9D83-FEE8B0AC029D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D300D2E0-0C92-4C48-9D83-FEE8B0AC029D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26A9DC79-AB69-4D20-B373-D8A9C2EEA006}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26A9DC79-AB69-4D20-B373-D8A9C2EEA006}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26A9DC79-AB69-4D20-B373-D8A9C2EEA006}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26A9DC79-AB69-4D20-B373-D8A9C2EEA006}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FA9F2A3C-4C26-41EE-A6F7-9217AB725D80}
+	EndGlobalSection
+EndGlobal
