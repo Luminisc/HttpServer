@@ -10,9 +10,13 @@
             new Goal() { Id = Guid.NewGuid(), Title = "Delete some of them", Description = "Delete them stronger" },
         ];
 
-        public Goal Create(Goal goal)
+        public Goal? Create(Goal goal)
         {
-            goal.Id = Guid.NewGuid();
+            if (goal.Id == Guid.Empty)
+                goal.Id = Guid.NewGuid();
+            else if (Goals.Any(x => x.Id == goal.Id))
+                return null;
+                
             Goals.Add(goal);
             return goal;
         }

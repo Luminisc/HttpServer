@@ -1,6 +1,36 @@
-@Snadbox.DemoAPI_HostAddress = http://localhost:5013
+@Snadbox.DemoAPI_HostAddress = http://localhost:4198
 
-GET {{Snadbox.DemoAPI_HostAddress}}/weatherforecast/
+GET {{Snadbox.DemoAPI_HostAddress}}/goal/
 Accept: application/json
+
+###
+
+PUT {{Snadbox.DemoAPI_HostAddress}}/goal
+Accept: application/json
+Content-Type: application/json
+
+{
+  "id":"11111111-1111-4444-1111-111111111111",
+  "title":"test task",
+  "description":"test description"
+}
+###
+
+GET {{Snadbox.DemoAPI_HostAddress}}/goal/11111111-1111-4444-1111-111111111111
+Accept: application/json
+###
+
+POST {{Snadbox.DemoAPI_HostAddress}}/goal/11111111-1111-4444-1111-111111111111
+Accept: application/json
+Content-Type: application/json
+
+{
+  "id":"11111111-1111-4444-1111-111111111111",
+  "title":"test task edited",
+  "description":"test description edited"
+}
+###
+
+DELETE {{Snadbox.DemoAPI_HostAddress}}/goal/11111111-1111-4444-1111-111111111111
 
 ###
