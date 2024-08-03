@@ -1,0 +1,6 @@
+{
+  "/goal": {
+    "target": "http://localhost:4198",
+    "secure": false
+  }
+}
